@@ -1,0 +1,6 @@
+{
+  "name": "BLACKOUT",
+  "description": "A tense 2D endless survival HTML5 browser game. Memorize the sector during the reveal, navigate through total darkness, manage your flashlight, and survive lethal hazards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

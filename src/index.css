@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    touch-action: none;
+    overflow: hidden;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Chakra Petch', sans-serif;
+  }
+}
+
+/* Custom glow effects for game UI */
+.neon-glow-cyan {
+  text-shadow: 0 0 10px rgba(6, 182, 212, 0.7), 0 0 20px rgba(6, 182, 212, 0.4);
+}
+
+.neon-glow-red {
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.7), 0 0 20px rgba(239, 68, 68, 0.4);
+}
+
+.neon-box-cyan {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.25), inset 0 0 15px rgba(6, 182, 212, 0.15);
+}
+
+.neon-box-red {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.35), inset 0 0 15px rgba(239, 68, 68, 0.15);
+}
+
+/* Prevent bounce scroll on mobile */
+html, body, #root {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
